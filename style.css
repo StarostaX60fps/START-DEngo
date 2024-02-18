@@ -1,48 +1,125 @@
+.logo-start {
+    background-color: rgb(212, 207, 207);
+    width: 320px;
+    height: 86px;
 
-.logo-start{
-    background-color: brown;
-     width: 320px;
-     height: 30px;
-     
- }
- 
- .ul-1{
-     display: flex;
-     justify-content: space-around;
-     list-style: none;
- }
- 
- .ul-2{
-     
-     list-style: none;
- }
- 
- .p{
-     color: white;
-     margin-top: -1px;
-     font-size: 25px;
- }
- 
- .button p{
-   font-size: 17px;     
- }
- 
- .button{   
-     width: 80px;
-     height: 27px;
- }
- 
- .logo-start li ul{
-     display: none;
- }
- 
- .logo-start li:hover > ul{
-     display: block;
- }
- 
- 
- /* .img {
-     border-radius: 10px 10px 10px 10px;
-     width: 300px;
- } 
- */
+}
+
+.ul-1 {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.ul-2 {
+
+    list-style: none;
+}
+
+.p {
+    color: black;
+    margin-top: -1px;
+    font-size: 25px;
+}
+
+.a {
+    color: black;
+    text-decoration: none;
+}
+
+.button p {
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.button {
+    margin-right: 50px;
+    border: 0px;
+    background-color: red;
+    margin-top: 1.5px;
+    width: 80px;
+    height: 27px;
+}
+
+.button-1 {
+    background-color: green;
+    border: 0px;
+    margin-top: 1.5px;
+    width: 80px;
+    height: 27px;
+}
+
+.button-2 {
+    background-color: rgb(0, 220, 0);
+    border: 0px;
+    margin-top: 1.5px;
+    width: 80px;
+    height: 27px;
+}
+
+.logo-start li ul {
+    display: none;
+}
+
+.logo-start li:hover>ul {
+    position: absolute;
+    display: block;
+}
+
+.ul-3 {
+    margin-top: 60px;
+    list-style: none;
+}
+
+.ul-4 {
+    list-style: none;
+}
+
+.li{
+    border: 2px solid black;
+    text-align: center;
+    background-color: chartreuse;
+    width: 320px;
+    height: 50px;
+    margin-left: -80px;
+    margin-top: 5px;
+}
+
+.h2{
+    margin-top: 10px;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.button-3 {
+    background-color: rgb(247, 105, 105);
+    border: 0px;
+    border-radius: 10px 10px 10px 10px;
+    width: 320px;
+    margin-left: -40px;
+    margin-top: -20px;
+}
+
+.img {
+    margin-top: 2px;
+    border-radius: 10px 10px 10px 10px;
+    width: 320px;
+}
+
+.ul-3 li ul{
+display: none;
+}
+
+.ul-3 li:hover > ul{
+display: block;
+}
+
+.div{
+    margin-left: 10px;
+    margin-top: 30px;
+    background-color: rgb(127, 127, 127);
+    width: 300px;
+    height: 5px;
+}
