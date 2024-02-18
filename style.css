@@ -1,0 +1,48 @@
+
+.logo-start{
+    background-color: brown;
+     width: 320px;
+     height: 30px;
+     
+ }
+ 
+ .ul-1{
+     display: flex;
+     justify-content: space-around;
+     list-style: none;
+ }
+ 
+ .ul-2{
+     
+     list-style: none;
+ }
+ 
+ .p{
+     color: white;
+     margin-top: -1px;
+     font-size: 25px;
+ }
+ 
+ .button p{
+   font-size: 17px;     
+ }
+ 
+ .button{   
+     width: 80px;
+     height: 27px;
+ }
+ 
+ .logo-start li ul{
+     display: none;
+ }
+ 
+ .logo-start li:hover > ul{
+     display: block;
+ }
+ 
+ 
+ /* .img {
+     border-radius: 10px 10px 10px 10px;
+     width: 300px;
+ } 
+ */
