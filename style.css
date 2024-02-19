@@ -1,6 +1,11 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
 .logo-start {
     background-color: rgb(212, 207, 207);
-    width: 320px;
+    width: 350px;
     height: 86px;
 
 }
@@ -75,21 +80,21 @@
     list-style: none;
 }
 
-.li{
+.li {
     border: 2px solid black;
     text-align: center;
     background-color: chartreuse;
-    width: 320px;
+    width: 350px;
     height: 50px;
     margin-left: -80px;
     margin-top: 5px;
 }
 
-.h2{
+.h2 {
     margin-top: 10px;
 }
 
-.a{
+.a {
     text-decoration: none;
 }
 
@@ -97,7 +102,7 @@
     background-color: rgb(247, 105, 105);
     border: 0px;
     border-radius: 10px 10px 10px 10px;
-    width: 320px;
+    width: 350px;
     margin-left: -40px;
     margin-top: -20px;
 }
@@ -105,21 +110,21 @@
 .img {
     margin-top: 2px;
     border-radius: 10px 10px 10px 10px;
-    width: 320px;
+    width: 350px;
 }
 
-.ul-3 li ul{
-display: none;
+.ul-3 li ul {
+    display: none;
 }
 
-.ul-3 li:hover > ul{
-display: block;
+.ul-3 li:hover>ul {
+    display: block;
 }
 
-.div{
+.div {
     margin-left: 10px;
     margin-top: 30px;
     background-color: rgb(127, 127, 127);
-    width: 300px;
+    width: 325px;
     height: 5px;
 }
